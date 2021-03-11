@@ -610,10 +610,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push ß111
+L Switch:SW_Push ß1111
 U 1 1 604A27F2
 P 13250 2000
-F 0 "ß111" V 13204 2148 50  0000 L CNN
+F 0 "ß1111" V 13204 2148 50  0000 L CNN
 F 1 "SW_Push" V 13295 2148 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 13250 2200 50  0001 C CNN
 F 3 "~" H 13250 2200 50  0001 C CNN
@@ -962,10 +962,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ü111
+L Switch:SW_Push Ü1111
 U 1 1 604B7861
 P 13250 2600
-F 0 "Ü111" V 13204 2748 50  0000 L CNN
+F 0 "Ü1111" V 13204 2748 50  0000 L CNN
 F 1 "SW_Push" V 13295 2748 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 13250 2800 50  0001 C CNN
 F 3 "~" H 13250 2800 50  0001 C CNN
@@ -1044,7 +1044,7 @@ U 1 1 604B7891
 P 14750 3800
 F 0 "PICDOWN1" V 14704 3948 50  0000 L CNN
 F 1 "SW_Push" V 14795 3948 50  0000 L CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 14750 4000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 14750 4000 50  0001 C CNN
 F 3 "~" H 14750 4000 50  0001 C CNN
 	1    14750 3800
 	0    1    1    0   
@@ -1281,10 +1281,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ö111
+L Switch:SW_Push Ö1111
 U 1 1 604C336A
 P 12750 3200
-F 0 "Ö111" V 12704 3348 50  0000 L CNN
+F 0 "Ö1111" V 12704 3348 50  0000 L CNN
 F 1 "SW_Push" V 12795 3348 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 12750 3400 50  0001 C CNN
 F 3 "~" H 12750 3400 50  0001 C CNN
@@ -1303,10 +1303,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ä111
+L Switch:SW_Push Ä1111
 U 1 1 604C3376
 P 13250 3200
-F 0 "Ä111" V 13204 3348 50  0000 L CNN
+F 0 "Ä1111" V 13204 3348 50  0000 L CNN
 F 1 "SW_Push" V 13295 3348 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 13250 3400 50  0001 C CNN
 F 3 "~" H 13250 3400 50  0001 C CNN
@@ -2088,7 +2088,7 @@ U 1 1 605FDDA5
 P 6850 1350
 F 0 "SUPER1" V 6804 1498 50  0000 L CNN
 F 1 "SW_Push" V 6895 1498 50  0000 L CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 6850 1550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6850 1550 50  0001 C CNN
 F 3 "~" H 6850 1550 50  0001 C CNN
 	1    6850 1350
 	-1   0    0    1   
@@ -2110,7 +2110,7 @@ U 1 1 6060B02B
 P 6850 2450
 F 0 "SHIFT1" V 6804 2598 50  0000 L CNN
 F 1 "SW_Push" V 6895 2598 50  0000 L CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 6850 2650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 6850 2650 50  0001 C CNN
 F 3 "~" H 6850 2650 50  0001 C CNN
 	1    6850 2450
 	-1   0    0    1   
@@ -2121,7 +2121,7 @@ U 1 1 60611E5C
 P 6850 3000
 F 0 "LSHIFT1" V 6804 3148 50  0000 L CNN
 F 1 "SW_Push" V 6895 3148 50  0000 L CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 6850 3200 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6850 3200 50  0001 C CNN
 F 3 "~" H 6850 3200 50  0001 C CNN
 	1    6850 3000
 	-1   0    0    1   
@@ -5272,7 +5272,7 @@ Wire Wire Line
 Wire Wire Line
 	14550 1100 14550 2800
 Wire Wire Line
-	13250 3600 14250 3600
+	13250 3600 13750 3600
 Connection ~ 13250 3600
 Connection ~ 14250 3600
 Wire Wire Line
@@ -5307,4 +5307,60 @@ Connection ~ 14250 2400
 Wire Wire Line
 	15550 3400 15550 4000
 Connection ~ 15550 3400
+$Comp
+L Switch:SW_Push FN1
+U 1 1 604CEAFC
+P 13750 3800
+F 0 "FN1" V 13704 3948 50  0000 L CNN
+F 1 "SW_Push" V 13795 3948 50  0000 L CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 13750 4000 50  0001 C CNN
+F 3 "~" H 13750 4000 50  0001 C CNN
+	1    13750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D164
+U 1 1 604CEB02
+P 13900 4000
+F 0 "D164" H 14150 3950 50  0000 R CNN
+F 1 "1N4148" H 14100 4100 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13900 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13900 4000 50  0001 C CNN
+	1    13900 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 13750 3600
+Wire Wire Line
+	13750 3600 14250 3600
+Wire Wire Line
+	14050 3400 14050 4000
+Connection ~ 14050 3400
+$Comp
+L Device:LED D163
+U 1 1 6056B7A9
+P 7450 10850
+F 0 "D163" H 7550 10800 50  0000 C CNN
+F 1 "LED amber" H 7400 10700 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 7450 10850 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2344828.pdf" H 7450 10850 50  0001 C CNN
+F 4 "https://de.farnell.com/broadcom-limited/hsma-c280/led-gelb-90mcd-592nm-0402/dp/2494320RL" H 7450 10850 50  0001 C CNN "URL"
+	1    7450 10850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R91
+U 1 1 6056B7B0
+P 7450 10600
+F 0 "R91" V 7550 10600 50  0000 C CNN
+F 1 "220" V 7350 10600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7450 10600 50  0001 C CNN
+F 3 "~" H 7450 10600 50  0001 C CNN
+F 4 "https://de.farnell.com/walsin/wr06x221-jtl/dickschichtwiderstand-220r-5-0/dp/2670694" V 7450 10600 50  0001 C CNN "URL"
+	1    7450 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 10500 7450 10500
+Wire Wire Line
+	7150 11000 7450 11000
 $EndSCHEMATC
