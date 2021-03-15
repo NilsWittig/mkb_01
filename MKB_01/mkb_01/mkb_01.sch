@@ -610,10 +610,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push ß11111
+L Switch:SW_Push ß1111111
 U 1 1 604A27F2
 P 10800 1550
-F 0 "ß11111" V 10754 1698 50  0000 L CNN
+F 0 "ß1111111" V 10754 1698 50  0000 L CNN
 F 1 "SW_Push" V 10845 1698 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10800 1750 50  0001 C CNN
 F 3 "~" H 10800 1750 50  0001 C CNN
@@ -962,10 +962,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ü11111
+L Switch:SW_Push Ü1111111
 U 1 1 604B7861
 P 11050 2150
-F 0 "Ü11111" V 11004 2298 50  0000 L CNN
+F 0 "Ü1111111" V 11004 2298 50  0000 L CNN
 F 1 "SW_Push" V 11095 2298 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11050 2350 50  0001 C CNN
 F 3 "~" H 11050 2350 50  0001 C CNN
@@ -1281,10 +1281,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ö11111
+L Switch:SW_Push Ö1111111
 U 1 1 604C336A
 P 10650 2750
-F 0 "Ö11111" V 10604 2898 50  0000 L CNN
+F 0 "Ö1111111" V 10604 2898 50  0000 L CNN
 F 1 "SW_Push" V 10695 2898 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10650 2950 50  0001 C CNN
 F 3 "~" H 10650 2950 50  0001 C CNN
@@ -1303,10 +1303,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10800
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push Ä11111
+L Switch:SW_Push Ä1111111
 U 1 1 604C3376
 P 11150 2750
-F 0 "Ä11111" V 11104 2898 50  0000 L CNN
+F 0 "Ä1111111" V 11104 2898 50  0000 L CNN
 F 1 "SW_Push" V 11195 2898 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11150 2950 50  0001 C CNN
 F 3 "~" H 11150 2950 50  0001 C CNN
@@ -1853,63 +1853,63 @@ Text GLabel 12250 3650 2    50   Input ~ 0
 PA6
 Text GLabel 10250 4250 2    50   Input ~ 0
 PA5
-Text GLabel 1400 3550 0    50   Input ~ 0
+Text GLabel 1550 6000 0    50   Input ~ 0
 PB0
-Text GLabel 1400 3650 0    50   Input ~ 0
+Text GLabel 1550 6100 0    50   Input ~ 0
 PB1
-Text GLabel 1400 3750 0    50   Input ~ 0
+Text GLabel 1550 6200 0    50   Input ~ 0
 PB2
-Text GLabel 1400 3850 0    50   Input ~ 0
+Text GLabel 1550 6300 0    50   Input ~ 0
 PB3
-Text GLabel 1400 3950 0    50   Input ~ 0
+Text GLabel 1550 6400 0    50   Input ~ 0
 PB4
-Text GLabel 1400 4050 0    50   Input ~ 0
+Text GLabel 1550 6500 0    50   Input ~ 0
 PB5
-Text GLabel 1400 4150 0    50   Input ~ 0
+Text GLabel 1550 6600 0    50   Input ~ 0
 PB6
-Text GLabel 1400 4250 0    50   Input ~ 0
+Text GLabel 1550 6700 0    50   Input ~ 0
 PB7
-Text GLabel 1400 4350 0    50   Input ~ 0
+Text GLabel 1550 6800 0    50   Input ~ 0
 PB8
-Text GLabel 1400 4450 0    50   Input ~ 0
+Text GLabel 1550 6900 0    50   Input ~ 0
 PB9
-Text GLabel 1400 4550 0    50   Input ~ 0
+Text GLabel 1550 7000 0    50   Input ~ 0
 PB10
-Text GLabel 1400 4650 0    50   Input ~ 0
+Text GLabel 1550 7100 0    50   Input ~ 0
 PB11
-Text GLabel 1400 4750 0    50   Input ~ 0
+Text GLabel 1550 7200 0    50   Input ~ 0
 PB12
-Text GLabel 1400 4850 0    50   Input ~ 0
+Text GLabel 1550 7300 0    50   Input ~ 0
 PB13
-Text GLabel 1400 4950 0    50   Input ~ 0
+Text GLabel 1550 7400 0    50   Input ~ 0
 PB14
-Text GLabel 1400 5050 0    50   Input ~ 0
+Text GLabel 1550 7500 0    50   Input ~ 0
 PB15
-Text GLabel 2700 3550 2    50   Input ~ 0
+Text GLabel 2850 6000 2    50   Input ~ 0
 PA0
-Text GLabel 2700 3650 2    50   Input ~ 0
+Text GLabel 2850 6100 2    50   Input ~ 0
 PA1
-Text GLabel 2700 3750 2    50   Input ~ 0
+Text GLabel 2850 6200 2    50   Input ~ 0
 PA2
-Text GLabel 2700 3850 2    50   Input ~ 0
+Text GLabel 2850 6300 2    50   Input ~ 0
 PA3
-Text GLabel 2700 3950 2    50   Input ~ 0
+Text GLabel 2850 6400 2    50   Input ~ 0
 PA4
-Text GLabel 2700 5050 2    50   Input ~ 0
+Text GLabel 2850 7500 2    50   Input ~ 0
 PA15
-Text GLabel 2700 4250 2    50   Input ~ 0
+Text GLabel 2850 6700 2    50   Input ~ 0
 PA7
-Text GLabel 2700 4150 2    50   Input ~ 0
+Text GLabel 2850 6600 2    50   Input ~ 0
 PA6
-Text GLabel 2700 4050 2    50   Input ~ 0
+Text GLabel 2850 6500 2    50   Input ~ 0
 PA5
-Text GLabel 2700 4750 2    50   Input ~ 0
+Text GLabel 2850 7200 2    50   Input ~ 0
 USB_DP
-Text GLabel 2700 4650 2    50   Input ~ 0
+Text GLabel 2850 7100 2    50   Input ~ 0
 USB_DM
-Text GLabel 2700 4350 2    50   Input ~ 0
+Text GLabel 2850 6800 2    50   Input ~ 0
 BACK_LIGHT
-Text GLabel 1400 3150 0    50   Input ~ 0
+Text GLabel 1550 5600 0    50   Input ~ 0
 CAPS_LIGHT
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
@@ -1947,21 +1947,21 @@ F 4 "https://de.farnell.com/on-semiconductor/mbr0520l/schottky-diode-0-5a-20v-sm
 	1    1800 9500
 	-1   0    0    1   
 $EndComp
-Text GLabel 1400 3250 0    50   Input ~ 0
+Text GLabel 1550 5700 0    50   Input ~ 0
 PC14
-Text GLabel 1400 3350 0    50   Input ~ 0
+Text GLabel 1550 5800 0    50   Input ~ 0
 PC15
-Text GLabel 2700 4850 2    50   Input ~ 0
+Text GLabel 2850 7300 2    50   Input ~ 0
 SWDIO
-Text GLabel 2700 4950 2    50   Input ~ 0
+Text GLabel 2850 7400 2    50   Input ~ 0
 SWDCLK
-Text GLabel 2700 4550 2    50   Input ~ 0
+Text GLabel 2850 7000 2    50   Input ~ 0
 USART_1_RX
-Text GLabel 2700 4450 2    50   Input ~ 0
+Text GLabel 2850 6900 2    50   Input ~ 0
 USART_1_TX
-Text GLabel 1400 2850 0    50   Input ~ 0
+Text GLabel 1550 5300 0    50   Input ~ 0
 OSC_IN
-Text GLabel 1400 2950 0    50   Input ~ 0
+Text GLabel 1550 5400 0    50   Input ~ 0
 OSC_OUT
 Text GLabel 1950 9500 2    50   Input ~ 0
 5V
@@ -2005,7 +2005,7 @@ Text GLabel 2950 10650 0    50   Input ~ 0
 SWDCLK
 Text GLabel 2950 10450 0    50   Input ~ 0
 NRST
-Text GLabel 1150 2450 0    50   Input ~ 0
+Text GLabel 1300 4900 0    50   Input ~ 0
 NRST
 Text GLabel 2950 9550 0    50   Input ~ 0
 GND
@@ -2043,109 +2043,101 @@ GND
 $Comp
 L Device:C_Small C2
 U 1 1 608C1BFE
-P 1800 2050
-F 0 "C2" V 1900 1950 50  0000 C CNN
-F 1 "100n" V 1700 1850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1800 2050 50  0001 C CNN
-F 3 "~" H 1800 2050 50  0001 C CNN
-	1    1800 2050
+P 1950 4500
+F 0 "C2" V 2050 4400 50  0000 C CNN
+F 1 "100n" V 1850 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1950 4500 50  0001 C CNN
+F 3 "~" H 1950 4500 50  0001 C CNN
+	1    1950 4500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 608C625B
-P 1900 1750
-F 0 "C3" V 2000 1650 50  0000 C CNN
-F 1 "100n" V 1800 1550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1900 1750 50  0001 C CNN
-F 3 "~" H 1900 1750 50  0001 C CNN
-	1    1900 1750
+P 2050 3550
+F 0 "C3" V 2150 3450 50  0000 C CNN
+F 1 "100n" V 1950 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2050 3550 50  0001 C CNN
+F 3 "~" H 2050 3550 50  0001 C CNN
+	1    2050 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 608CBCC8
-P 2000 1450
-F 0 "C5" V 2100 1350 50  0000 C CNN
-F 1 "100n" V 1900 1250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2000 1450 50  0001 C CNN
-F 3 "~" H 2000 1450 50  0001 C CNN
-	1    2000 1450
+P 2150 2550
+F 0 "C5" V 2250 2450 50  0000 C CNN
+F 1 "100n" V 2050 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2150 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C6
 U 1 1 608D15CF
-P 2100 1150
-F 0 "C6" V 2200 1050 50  0000 C CNN
-F 1 "100n" V 2000 950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2100 1150 50  0001 C CNN
-F 3 "~" H 2100 1150 50  0001 C CNN
-	1    2100 1150
-	0    1    1    0   
+P 2450 3550
+F 0 "C6" V 2550 3450 50  0000 C CNN
+F 1 "100n" V 2350 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2450 3550 50  0001 C CNN
+F 3 "~" H 2450 3550 50  0001 C CNN
+	1    2450 3550
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 2250 1900 2050
-Text GLabel 2200 1150 1    50   Input ~ 0
+	2050 4700 2050 4500
+Text GLabel 2350 3350 1    50   Input ~ 0
 3V3
-Text GLabel 1700 2050 0    50   Input ~ 0
+Text GLabel 1850 4500 0    50   Input ~ 0
 GND
-Text GLabel 1800 1750 0    50   Input ~ 0
+Text GLabel 1950 3550 0    50   Input ~ 0
 GND
-Text GLabel 1900 1450 0    50   Input ~ 0
+Text GLabel 2050 2550 0    50   Input ~ 0
 GND
-Text GLabel 2000 1150 0    50   Input ~ 0
+Text GLabel 2550 3550 2    50   Input ~ 0
 GND
-Text GLabel 2100 1450 1    50   Input ~ 0
+Text GLabel 2250 2350 1    50   Input ~ 0
 3V3
-Text GLabel 2000 1750 1    50   Input ~ 0
+Text GLabel 2150 3350 1    50   Input ~ 0
 3V3
-Text GLabel 1900 2050 1    50   Input ~ 0
+Text GLabel 2050 4300 1    50   Input ~ 0
 3V3
-Wire Wire Line
-	2000 1750 2000 2250
-Wire Wire Line
-	2100 1450 2100 2250
-Wire Wire Line
-	2200 1150 2200 2250
 $Comp
 L Device:C_Small C7
 U 1 1 60949D05
-P 2200 850
-F 0 "C7" V 2300 750 50  0000 C CNN
-F 1 "100n" V 2100 650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2200 850 50  0001 C CNN
-F 3 "~" H 2200 850 50  0001 C CNN
-	1    2200 850 
-	0    1    1    0   
+P 2550 4500
+F 0 "C7" V 2650 4400 50  0000 C CNN
+F 1 "100n" V 2450 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2550 4500 50  0001 C CNN
+F 3 "~" H 2550 4500 50  0001 C CNN
+	1    2550 4500
+	0    -1   -1   0   
 $EndComp
-Text GLabel 2300 850  1    50   Input ~ 0
+Text GLabel 2450 4300 1    50   Input ~ 0
 3V3
-Text GLabel 2100 850  0    50   Input ~ 0
+Text GLabel 2650 4500 2    50   Input ~ 0
 GND
-Wire Wire Line
-	2300 850  2300 2250
 $Comp
 L Jumper:SolderJumper_3_Open JP1
 U 1 1 60958278
-P 800 2650
-F 0 "JP1" V 850 2450 50  0000 L CNN
-F 1 "SolderJumper_3_Open" H 450 2750 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 800 2650 50  0001 C CNN
-F 3 "~" H 800 2650 50  0001 C CNN
-	1    800  2650
+P 950 5100
+F 0 "JP1" V 1000 4900 50  0000 L CNN
+F 1 "SolderJumper_3_Open" H 600 5200 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 950 5100 50  0001 C CNN
+F 3 "~" H 950 5100 50  0001 C CNN
+	1    950  5100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 800  2450 1    50   Input ~ 0
+Text GLabel 950  4900 1    50   Input ~ 0
 GND
-Text GLabel 800  2850 3    50   Input ~ 0
+Text GLabel 950  5300 3    50   Input ~ 0
 3V3
 Wire Wire Line
-	2000 5250 2100 5250
-Connection ~ 2100 5250
+	2150 7700 2250 7700
+Connection ~ 2250 7700
 Wire Wire Line
-	2100 5250 2200 5250
-Text GLabel 2200 5250 2    50   Input ~ 0
+	2250 7700 2350 7700
+Text GLabel 2350 7700 2    50   Input ~ 0
 GND
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U1
@@ -2260,13 +2252,13 @@ $EndComp
 $Comp
 L MCU_ST_STM32F0:STM32F070CBTx U2
 U 1 1 60B7B2F7
-P 2100 3750
-F 0 "U2" H 2050 2161 50  0000 C CNN
-F 1 "STM32F070CBTx" H 2050 2070 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1500 2350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf" H 2100 3750 50  0001 C CNN
-F 4 "https://de.farnell.com/stmicroelectronics/stm32f070cbt6/mcu-arm-cortex-m0-48mhz-lqfp-48/dp/2750627?st=stm32f070cb" H 2100 3750 50  0001 C CNN "URL"
-	1    2100 3750
+P 2250 6200
+F 0 "U2" H 2200 4611 50  0000 C CNN
+F 1 "STM32F070CBTx" H 2200 4520 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1650 4800 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf" H 2250 6200 50  0001 C CNN
+F 4 "https://de.farnell.com/stmicroelectronics/stm32f070cbt6/mcu-arm-cortex-m0-48mhz-lqfp-48/dp/2750627?st=stm32f070cb" H 2250 6200 50  0001 C CNN "URL"
+	1    2250 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4831,70 +4823,70 @@ GND
 $Comp
 L Device:R_Small R90
 U 1 1 609E6ADE
-P 1300 2350
-F 0 "R90" V 1200 2300 50  0000 C CNN
-F 1 "10k" V 1400 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1300 2350 50  0001 C CNN
-F 3 "~" H 1300 2350 50  0001 C CNN
-F 4 "https://de.farnell.com/walsin/wr06x103-jtl/dickschichtwiderstand-10k-5-0/dp/2670595" V 1300 2350 50  0001 C CNN "URL"
-	1    1300 2350
+P 1450 4800
+F 0 "R90" V 1350 4750 50  0000 C CNN
+F 1 "10k" V 1550 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1450 4800 50  0001 C CNN
+F 3 "~" H 1450 4800 50  0001 C CNN
+F 4 "https://de.farnell.com/walsin/wr06x103-jtl/dickschichtwiderstand-10k-5-0/dp/2670595" V 1450 4800 50  0001 C CNN "URL"
+	1    1450 4800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1150 2450 1300 2450
-Connection ~ 1300 2450
+	1300 4900 1450 4900
+Connection ~ 1450 4900
 Wire Wire Line
-	1300 2450 1400 2450
-Text GLabel 1300 2250 1    50   Input ~ 0
+	1450 4900 1550 4900
+Text GLabel 1450 4700 1    50   Input ~ 0
 3V3
-Text GLabel 1900 5850 3    50   Input ~ 0
+Text GLabel 3450 8400 3    50   Input ~ 0
 OSC_IN
-Text GLabel 2300 5850 3    50   Input ~ 0
+Text GLabel 3850 8400 3    50   Input ~ 0
 OSC_OUT
 $Comp
 L Device:Crystal Y2
 U 1 1 60A88C36
-P 2100 5850
-F 0 "Y2" H 2100 6118 50  0000 C CNN
-F 1 "Crystal" H 2100 6027 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering" H 2100 5850 50  0001 C CNN
-F 3 "~" H 2100 5850 50  0001 C CNN
-F 4 "https://de.farnell.com/abracon/abm3-8-000mhz-d2y-t/quarz-8mhz-18pf-smd/dp/2101329" H 2100 5850 50  0001 C CNN "URL"
-	1    2100 5850
+P 3650 8400
+F 0 "Y2" H 3650 8668 50  0000 C CNN
+F 1 "Crystal" H 3650 8577 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering" H 3650 8400 50  0001 C CNN
+F 3 "~" H 3650 8400 50  0001 C CNN
+F 4 "https://de.farnell.com/abracon/abm3-8-000mhz-d2y-t/quarz-8mhz-18pf-smd/dp/2101329" H 3650 8400 50  0001 C CNN "URL"
+	1    3650 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C9
 U 1 1 60A8A67F
-P 1750 5850
-F 0 "C9" V 1850 5850 50  0000 C CNN
-F 1 "18p" V 1600 5850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1750 5850 50  0001 C CNN
-F 3 "~" H 1750 5850 50  0001 C CNN
-F 4 "https://de.farnell.com/walsin/0603n180j500ct/kondensator-18pf-50v-5-c0g-np0/dp/2496890" V 1750 5850 50  0001 C CNN "URL"
-	1    1750 5850
+P 3300 8400
+F 0 "C9" V 3400 8400 50  0000 C CNN
+F 1 "18p" V 3150 8400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3300 8400 50  0001 C CNN
+F 3 "~" H 3300 8400 50  0001 C CNN
+F 4 "https://de.farnell.com/walsin/0603n180j500ct/kondensator-18pf-50v-5-c0g-np0/dp/2496890" V 3300 8400 50  0001 C CNN "URL"
+	1    3300 8400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C10
 U 1 1 60AB03F6
-P 2450 5850
-F 0 "C10" V 2350 5850 50  0000 C CNN
-F 1 "18p" V 2600 5850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2450 5850 50  0001 C CNN
-F 3 "~" H 2450 5850 50  0001 C CNN
-F 4 "https://de.farnell.com/walsin/0603n180j500ct/kondensator-18pf-50v-5-c0g-np0/dp/2496890" V 2450 5850 50  0001 C CNN "URL"
-	1    2450 5850
+P 4000 8400
+F 0 "C10" V 3900 8400 50  0000 C CNN
+F 1 "18p" V 4150 8400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4000 8400 50  0001 C CNN
+F 3 "~" H 4000 8400 50  0001 C CNN
+F 4 "https://de.farnell.com/walsin/0603n180j500ct/kondensator-18pf-50v-5-c0g-np0/dp/2496890" V 4000 8400 50  0001 C CNN "URL"
+	1    4000 8400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1650 5850 0    50   Input ~ 0
+Text GLabel 3200 8400 0    50   Input ~ 0
 GND
-Text GLabel 2550 5850 2    50   Input ~ 0
+Text GLabel 4100 8400 2    50   Input ~ 0
 GND
 Wire Wire Line
-	2250 5850 2350 5850
+	3800 8400 3900 8400
 Wire Wire Line
-	1850 5850 1950 5850
+	3400 8400 3500 8400
 $Comp
 L Diode:1N4148 D75
 U 1 1 604C33A0
@@ -5597,10 +5589,10 @@ Wire Wire Line
 	1200 8300 1250 8300
 Connection ~ 1200 8300
 Wire Wire Line
-	1900 5250 2000 5250
-Connection ~ 2000 5250
+	2050 7700 2150 7700
+Connection ~ 2150 7700
 Wire Wire Line
-	950  2650 1400 2650
+	1100 5100 1550 5100
 Text GLabel 5550 9400 0    50   Input ~ 0
 5V
 Text GLabel 5550 8200 0    50   Input ~ 0
@@ -5608,89 +5600,162 @@ Text GLabel 5550 8200 0    50   Input ~ 0
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 62C6F3A0
-P 800 6150
-F 0 "H2" H 900 6196 50  0000 L CNN
-F 1 "MountingHole" H 900 6105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 6150 50  0001 C CNN
-F 3 "~" H 800 6150 50  0001 C CNN
-	1    800  6150
+P 15400 7900
+F 0 "H2" H 15500 7946 50  0000 L CNN
+F 1 "MountingHole" H 15500 7855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 7900 50  0001 C CNN
+F 3 "~" H 15400 7900 50  0001 C CNN
+	1    15400 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 62D8D643
-P 800 6350
-F 0 "H3" H 900 6396 50  0000 L CNN
-F 1 "MountingHole" H 900 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 6350 50  0001 C CNN
-F 3 "~" H 800 6350 50  0001 C CNN
-	1    800  6350
+P 15400 8100
+F 0 "H3" H 15500 8146 50  0000 L CNN
+F 1 "MountingHole" H 15500 8055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 8100 50  0001 C CNN
+F 3 "~" H 15400 8100 50  0001 C CNN
+	1    15400 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 62DC7CA8
-P 800 6550
-F 0 "H4" H 900 6596 50  0000 L CNN
-F 1 "MountingHole" H 900 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 6550 50  0001 C CNN
-F 3 "~" H 800 6550 50  0001 C CNN
-	1    800  6550
+P 15400 8300
+F 0 "H4" H 15500 8346 50  0000 L CNN
+F 1 "MountingHole" H 15500 8255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 8300 50  0001 C CNN
+F 3 "~" H 15400 8300 50  0001 C CNN
+	1    15400 8300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 62DC7CAE
-P 800 6750
-F 0 "H5" H 900 6796 50  0000 L CNN
-F 1 "MountingHole" H 900 6705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 6750 50  0001 C CNN
-F 3 "~" H 800 6750 50  0001 C CNN
-	1    800  6750
+P 15400 8500
+F 0 "H5" H 15500 8546 50  0000 L CNN
+F 1 "MountingHole" H 15500 8455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 8500 50  0001 C CNN
+F 3 "~" H 15400 8500 50  0001 C CNN
+	1    15400 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 62E02BB1
-P 800 6950
-F 0 "H6" H 900 6996 50  0000 L CNN
-F 1 "MountingHole" H 900 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 6950 50  0001 C CNN
-F 3 "~" H 800 6950 50  0001 C CNN
-	1    800  6950
+P 15400 8700
+F 0 "H6" H 15500 8746 50  0000 L CNN
+F 1 "MountingHole" H 15500 8655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 8700 50  0001 C CNN
+F 3 "~" H 15400 8700 50  0001 C CNN
+	1    15400 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 62E02BB7
-P 800 7150
-F 0 "H7" H 900 7196 50  0000 L CNN
-F 1 "MountingHole" H 900 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 7150 50  0001 C CNN
-F 3 "~" H 800 7150 50  0001 C CNN
-	1    800  7150
+P 15400 8900
+F 0 "H7" H 15500 8946 50  0000 L CNN
+F 1 "MountingHole" H 15500 8855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 8900 50  0001 C CNN
+F 3 "~" H 15400 8900 50  0001 C CNN
+	1    15400 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 62E02BBD
-P 800 7350
-F 0 "H8" H 900 7396 50  0000 L CNN
-F 1 "MountingHole" H 900 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 7350 50  0001 C CNN
-F 3 "~" H 800 7350 50  0001 C CNN
-	1    800  7350
+P 15400 9100
+F 0 "H8" H 15500 9146 50  0000 L CNN
+F 1 "MountingHole" H 15500 9055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 9100 50  0001 C CNN
+F 3 "~" H 15400 9100 50  0001 C CNN
+	1    15400 9100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 62E02BC3
-P 800 7550
-F 0 "H9" H 900 7596 50  0000 L CNN
-F 1 "MountingHole" H 900 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 800 7550 50  0001 C CNN
-F 3 "~" H 800 7550 50  0001 C CNN
-	1    800  7550
+P 15400 9300
+F 0 "H9" H 15500 9346 50  0000 L CNN
+F 1 "MountingHole" H 15500 9255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 15400 9300 50  0001 C CNN
+F 3 "~" H 15400 9300 50  0001 C CNN
+	1    15400 9300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 6053A44F
+P 2050 4400
+F 0 "FB1" H 1950 4750 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" V 1900 4400 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1980 4400 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1756147.pdf" H 2050 4400 50  0001 C CNN
+F 4 "https://de.farnell.com/murata/blm18ag102sn1d/ferritperle-0-5ohm-0-4a-25-0603/dp/1515671" H 2050 4400 50  0001 C CNN "URL"
+	1    2050 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 4500
+Wire Wire Line
+	2150 3550 2150 4700
+$Comp
+L Device:Ferrite_Bead_Small FB4
+U 1 1 607C298D
+P 2450 4400
+F 0 "FB4" H 2600 4600 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" V 2550 4400 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2380 4400 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1756147.pdf" H 2450 4400 50  0001 C CNN
+F 4 "https://de.farnell.com/murata/blm18ag102sn1d/ferritperle-0-5ohm-0-4a-25-0603/dp/1515671" H 2450 4400 50  0001 C CNN "URL"
+	1    2450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB3
+U 1 1 608336E3
+P 2350 3450
+F 0 "FB3" H 2450 3650 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 2400 3550 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2280 3450 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1756147.pdf" H 2350 3450 50  0001 C CNN
+F 4 "https://de.farnell.com/murata/blm18ag102sn1d/ferritperle-0-5ohm-0-4a-25-0603/dp/1515671" H 2350 3450 50  0001 C CNN "URL"
+	1    2350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4500 2450 4700
+Connection ~ 2450 4500
+Wire Wire Line
+	2350 3550 2350 4700
+Connection ~ 2350 3550
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 60952821
+P 2250 2450
+F 0 "FB2" H 2350 2650 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 2300 2550 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2180 2450 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1756147.pdf" H 2250 2450 50  0001 C CNN
+F 4 "https://de.farnell.com/murata/blm18ag102sn1d/ferritperle-0-5ohm-0-4a-25-0603/dp/1515671" H 2250 2450 50  0001 C CNN "URL"
+	1    2250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB5
+U 1 1 609BA2A3
+P 2150 3450
+F 0 "FB5" V 1900 3700 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" V 2000 3450 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2080 3450 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1756147.pdf" H 2150 3450 50  0001 C CNN
+F 4 "https://de.farnell.com/murata/blm18ag102sn1d/ferritperle-0-5ohm-0-4a-25-0603/dp/1515671" H 2150 3450 50  0001 C CNN "URL"
+	1    2150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 2550
+Connection ~ 2150 3550
+Wire Wire Line
+	2250 2550 2250 4700
 $EndSCHEMATC
