@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 12850 9550 0    50   ~ 0
-Begin all hiZ\nwrite 1 col low\nset 1 row in pullup and read\nset row hiZ again\nset col hiZ again\nnext col\n\npressed key should be low
 $Comp
 L Switch:SW_Push ESC1
 U 1 1 6043F1FD
@@ -30,12 +28,12 @@ $Comp
 L Diode:1N4148 D3
 U 1 1 60442143
 P 5450 1150
-F 0 "D3" H 5700 1100 50  0000 R CNN
-F 1 "1N4148" H 5650 1250 50  0000 R CNN
+F 0 "D3" H 5250 1150 50  0000 R CNN
+F 1 "1N4148" H 5550 1050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 1150 50  0001 C CNN
 	1    5450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F1
@@ -52,12 +50,12 @@ $Comp
 L Diode:1N4148 D8
 U 1 1 6044695E
 P 5950 1150
-F 0 "D8" H 6200 1100 50  0000 R CNN
-F 1 "1N4148" H 6150 1250 50  0000 R CNN
+F 0 "D8" H 5750 1150 50  0000 R CNN
+F 1 "1N4148" H 6050 1050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 1150 50  0001 C CNN
 	1    5950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F2
@@ -74,12 +72,12 @@ $Comp
 L Diode:1N4148 D13
 U 1 1 60447293
 P 6450 1150
-F 0 "D13" H 6700 1100 50  0000 R CNN
-F 1 "1N4148" H 6650 1250 50  0000 R CNN
+F 0 "D13" H 6300 1150 50  0000 R CNN
+F 1 "1N4148" H 6500 1050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 1150 50  0001 C CNN
 	1    6450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F3
@@ -101,7 +99,7 @@ F 1 "1N4148" H 7150 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 1150 50  0001 C CNN
 	1    6950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F4
@@ -123,7 +121,7 @@ F 1 "1N4148" H 7650 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 1150 50  0001 C CNN
 	1    7450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F5
@@ -145,7 +143,7 @@ F 1 "1N4148" H 8150 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7950 1150 50  0001 C CNN
 	1    7950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F6
@@ -167,7 +165,7 @@ F 1 "1N4148" H 8650 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 1150 50  0001 C CNN
 	1    8450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F7
@@ -189,7 +187,7 @@ F 1 "1N4148" H 9150 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 1150 50  0001 C CNN
 	1    8950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F8
@@ -211,7 +209,7 @@ F 1 "1N4148" H 9650 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 1150 50  0001 C CNN
 	1    9450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F9
@@ -233,7 +231,7 @@ F 1 "1N4148" H 10150 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9950 1150 50  0001 C CNN
 	1    9950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F10
@@ -255,7 +253,7 @@ F 1 "1N4148" H 10650 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450 1150 50  0001 C CNN
 	1    10450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F11
@@ -277,7 +275,7 @@ F 1 "1N4148" H 11150 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10950 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10950 1150 50  0001 C CNN
 	1    10950 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F12
@@ -299,7 +297,7 @@ F 1 "1N4148" H 11650 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11450 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11450 1150 50  0001 C CNN
 	1    11450 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push DEL1
@@ -321,7 +319,7 @@ F 1 "1N4148" H 13100 1250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 1150 50  0001 C CNN
 	1    12900 1150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push PRINT1
@@ -343,7 +341,7 @@ F 1 "1N4148" H 13100 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 1750 50  0001 C CNN
 	1    12900 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push POS1
@@ -365,7 +363,7 @@ F 1 "1N4148" H 13100 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 2350 50  0001 C CNN
 	1    12900 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push ^1
@@ -387,7 +385,7 @@ F 1 "1N4148" H 5650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 1750 50  0001 C CNN
 	1    5450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push ONE1
@@ -409,7 +407,7 @@ F 1 "1N4148" H 6150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 1750 50  0001 C CNN
 	1    5950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push TWO1
@@ -431,7 +429,7 @@ F 1 "1N4148" H 6650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6450 1750 50  0001 C CNN
 	1    6450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push THREE1
@@ -453,7 +451,7 @@ F 1 "1N4148" H 7150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 1750 50  0001 C CNN
 	1    6950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push FOUR1
@@ -475,7 +473,7 @@ F 1 "1N4148" H 7650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 1750 50  0001 C CNN
 	1    7450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push FIVE1
@@ -497,7 +495,7 @@ F 1 "1N4148" H 8150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7950 1750 50  0001 C CNN
 	1    7950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SIX1
@@ -519,7 +517,7 @@ F 1 "1N4148" H 8650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 1750 50  0001 C CNN
 	1    8450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SEVEN1
@@ -541,7 +539,7 @@ F 1 "1N4148" H 9150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8950 1750 50  0001 C CNN
 	1    8950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push EIGHT1
@@ -563,7 +561,7 @@ F 1 "1N4148" H 9650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9450 1750 50  0001 C CNN
 	1    9450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push NINE1
@@ -585,7 +583,7 @@ F 1 "1N4148" H 10150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9950 1750 50  0001 C CNN
 	1    9950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push ZERO1
@@ -607,13 +605,13 @@ F 1 "1N4148" H 10650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10450 1750 50  0001 C CNN
 	1    10450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push ß1111111
+L Switch:SW_Push ß11111111
 U 1 1 604A27F2
 P 10800 1550
-F 0 "ß1111111" V 10754 1698 50  0000 L CNN
+F 0 "ß11111111" V 10754 1698 50  0000 L CNN
 F 1 "SW_Push" V 10845 1698 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10800 1750 50  0001 C CNN
 F 3 "~" H 10800 1750 50  0001 C CNN
@@ -629,7 +627,7 @@ F 1 "1N4148" H 11150 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10950 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10950 1750 50  0001 C CNN
 	1    10950 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push BACKSLASH1
@@ -651,7 +649,7 @@ F 1 "1N4148" H 11650 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11450 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11450 1750 50  0001 C CNN
 	1    11450 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push BACKSPACE1
@@ -673,7 +671,7 @@ F 1 "1N4148" H 12400 1850 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12200 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12200 1750 50  0001 C CNN
 	1    12200 1750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push END1
@@ -695,7 +693,7 @@ F 1 "1N4148" H 13100 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 2950 50  0001 C CNN
 	1    12900 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push PICUP1
@@ -717,7 +715,7 @@ F 1 "1N4148" H 13100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 3550 50  0001 C CNN
 	1    12900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push TAB1
@@ -739,7 +737,7 @@ F 1 "1N4148" H 5850 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 2350 50  0001 C CNN
 	1    5650 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push Q1
@@ -761,7 +759,7 @@ F 1 "1N4148" H 6400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6200 2350 50  0001 C CNN
 	1    6200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push W1
@@ -783,7 +781,7 @@ F 1 "1N4148" H 6900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 2350 50  0001 C CNN
 	1    6700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push E1
@@ -805,7 +803,7 @@ F 1 "1N4148" H 7400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7200 2350 50  0001 C CNN
 	1    7200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push R4
@@ -827,7 +825,7 @@ F 1 "1N4148" H 7900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7700 2350 50  0001 C CNN
 	1    7700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push T1
@@ -849,7 +847,7 @@ F 1 "1N4148" H 8400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8200 2350 50  0001 C CNN
 	1    8200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push Z1
@@ -871,7 +869,7 @@ F 1 "1N4148" H 8900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8700 2350 50  0001 C CNN
 	1    8700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push U3
@@ -893,7 +891,7 @@ F 1 "1N4148" H 9400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 2350 50  0001 C CNN
 	1    9200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push I1
@@ -915,7 +913,7 @@ F 1 "1N4148" H 9900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 2350 50  0001 C CNN
 	1    9700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push O1
@@ -937,7 +935,7 @@ F 1 "1N4148" H 10400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 2350 50  0001 C CNN
 	1    10200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push P1
@@ -959,13 +957,13 @@ F 1 "1N4148" H 10900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 2350 50  0001 C CNN
 	1    10700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push Ü1111111
+L Switch:SW_Push Ü11111111
 U 1 1 604B7861
 P 11050 2150
-F 0 "Ü1111111" V 11004 2298 50  0000 L CNN
+F 0 "Ü11111111" V 11004 2298 50  0000 L CNN
 F 1 "SW_Push" V 11095 2298 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11050 2350 50  0001 C CNN
 F 3 "~" H 11050 2350 50  0001 C CNN
@@ -981,7 +979,7 @@ F 1 "1N4148" H 11400 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11200 2350 50  0001 C CNN
 	1    11200 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push PLUS1
@@ -1003,7 +1001,7 @@ F 1 "1N4148" H 11900 2450 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11700 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11700 2350 50  0001 C CNN
 	1    11700 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push ENTER1
@@ -1025,7 +1023,7 @@ F 1 "1N4148" H 12600 2750 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12400 2475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12400 2650 50  0001 C CNN
 	1    12400 2650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148 D74
@@ -1036,7 +1034,7 @@ F 1 "1N4148" H 12600 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12400 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12400 4150 50  0001 C CNN
 	1    12400 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push PICDOWN1
@@ -1058,7 +1056,7 @@ F 1 "1N4148" H 13100 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12900 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12900 4150 50  0001 C CNN
 	1    12900 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push CAPS1
@@ -1080,7 +1078,7 @@ F 1 "1N4148" H 5900 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5700 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5700 2950 50  0001 C CNN
 	1    5700 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push A1
@@ -1102,7 +1100,7 @@ F 1 "1N4148" H 6500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6300 2950 50  0001 C CNN
 	1    6300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push S1
@@ -1124,7 +1122,7 @@ F 1 "1N4148" H 7000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6800 2950 50  0001 C CNN
 	1    6800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push D18
@@ -1146,7 +1144,7 @@ F 1 "1N4148" H 7500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7300 2950 50  0001 C CNN
 	1    7300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push F13
@@ -1168,7 +1166,7 @@ F 1 "1N4148" H 8000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7800 2950 50  0001 C CNN
 	1    7800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push G1
@@ -1190,7 +1188,7 @@ F 1 "1N4148" H 8500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 2950 50  0001 C CNN
 	1    8300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push H1
@@ -1212,7 +1210,7 @@ F 1 "1N4148" H 9000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8800 2950 50  0001 C CNN
 	1    8800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push J2
@@ -1234,7 +1232,7 @@ F 1 "1N4148" H 9500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9300 2950 50  0001 C CNN
 	1    9300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push K1
@@ -1256,7 +1254,7 @@ F 1 "1N4148" H 10000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9800 2950 50  0001 C CNN
 	1    9800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push L1
@@ -1278,13 +1276,13 @@ F 1 "1N4148" H 10500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300 2950 50  0001 C CNN
 	1    10300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push Ö1111111
+L Switch:SW_Push Ö11111111
 U 1 1 604C336A
 P 10650 2750
-F 0 "Ö1111111" V 10604 2898 50  0000 L CNN
+F 0 "Ö11111111" V 10604 2898 50  0000 L CNN
 F 1 "SW_Push" V 10695 2898 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10650 2950 50  0001 C CNN
 F 3 "~" H 10650 2950 50  0001 C CNN
@@ -1300,13 +1298,13 @@ F 1 "1N4148" H 11000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10800 2950 50  0001 C CNN
 	1    10800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push Ä1111111
+L Switch:SW_Push Ä11111111
 U 1 1 604C3376
 P 11150 2750
-F 0 "Ä1111111" V 11104 2898 50  0000 L CNN
+F 0 "Ä11111111" V 11104 2898 50  0000 L CNN
 F 1 "SW_Push" V 11195 2898 50  0000 L CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11150 2950 50  0001 C CNN
 F 3 "~" H 11150 2950 50  0001 C CNN
@@ -1322,7 +1320,7 @@ F 1 "1N4148" H 11500 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11300 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11300 2950 50  0001 C CNN
 	1    11300 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push HASH1
@@ -1344,7 +1342,7 @@ F 1 "1N4148" H 12000 3050 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11800 2775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11800 2950 50  0001 C CNN
 	1    11800 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push UP1
@@ -1366,7 +1364,7 @@ F 1 "1N4148" H 12100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11900 3550 50  0001 C CNN
 	1    11900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push LEFT1
@@ -1388,7 +1386,7 @@ F 1 "1N4148" H 11600 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11400 4150 50  0001 C CNN
 	1    11400 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push GREATER1
@@ -1411,7 +1409,7 @@ F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 3375 50  0001
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 3550 50  0001 C CNN
 F 4 "https://de.farnell.com/taiwan-semiconductor/1n4148w/kleinsignaldiode-300v-0-15a-sod/dp/2677464?st=1n4148" H 6400 3550 50  0001 C CNN "URL"
 	1    6400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push Y1
@@ -1433,7 +1431,7 @@ F 1 "1N4148" H 7100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6900 3550 50  0001 C CNN
 	1    6900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push X1
@@ -1455,7 +1453,7 @@ F 1 "1N4148" H 7600 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7400 3550 50  0001 C CNN
 	1    7400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push C8
@@ -1477,7 +1475,7 @@ F 1 "1N4148" H 8100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7900 3550 50  0001 C CNN
 	1    7900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push V1
@@ -1499,7 +1497,7 @@ F 1 "1N4148" H 8600 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 3550 50  0001 C CNN
 	1    8400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push B1
@@ -1521,7 +1519,7 @@ F 1 "1N4148" H 9100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8900 3550 50  0001 C CNN
 	1    8900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SPACE1
@@ -1543,7 +1541,7 @@ F 1 "1N4148" H 8650 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8450 4150 50  0001 C CNN
 	1    8450 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push N1
@@ -1565,7 +1563,7 @@ F 1 "1N4148" H 9600 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9400 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9400 3550 50  0001 C CNN
 	1    9400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push M1
@@ -1587,7 +1585,7 @@ F 1 "1N4148" H 10100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 3550 50  0001 C CNN
 	1    9900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push COMMA1
@@ -1609,7 +1607,7 @@ F 1 "1N4148" H 10600 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10400 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10400 3550 50  0001 C CNN
 	1    10400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push POINT1
@@ -1631,7 +1629,7 @@ F 1 "1N4148" H 11100 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10900 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10900 3550 50  0001 C CNN
 	1    10900 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push LINE1
@@ -1653,7 +1651,7 @@ F 1 "1N4148" H 11600 3650 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11400 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11400 3550 50  0001 C CNN
 	1    11400 3550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5300 750  5800 750 
@@ -1706,28 +1704,6 @@ Wire Wire Line
 	5600 1150 5600 650 
 Wire Wire Line
 	6100 1150 6100 650 
-Wire Wire Line
-	6600 1150 6600 650 
-Wire Wire Line
-	7100 1150 7100 650 
-Wire Wire Line
-	7600 1150 7600 650 
-Wire Wire Line
-	8600 1150 8600 650 
-Wire Wire Line
-	8100 1150 8100 650 
-Wire Wire Line
-	9100 1150 9100 650 
-Wire Wire Line
-	9600 1150 9600 650 
-Wire Wire Line
-	10100 1150 10100 650 
-Wire Wire Line
-	10600 1150 10600 650 
-Wire Wire Line
-	11100 1150 11100 650 
-Wire Wire Line
-	11600 1150 11600 650 
 Text GLabel 5100 750  0    50   Input ~ 0
 PA0
 Text GLabel 5100 1350 0    50   Input ~ 0
@@ -4850,7 +4826,7 @@ P 3650 8400
 F 0 "Y2" H 3650 8668 50  0000 C CNN
 F 1 "Crystal" H 3650 8577 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering" H 3650 8400 50  0001 C CNN
-F 3 "~" H 3650 8400 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1754353.pdf" H 3650 8400 50  0001 C CNN
 F 4 "https://de.farnell.com/abracon/abm3-8-000mhz-d2y-t/quarz-8mhz-18pf-smd/dp/2101329" H 3650 8400 50  0001 C CNN "URL"
 	1    3650 8400
 	1    0    0    -1  
@@ -4896,7 +4872,7 @@ F 1 "1N4148" H 12100 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11900 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11900 4150 50  0001 C CNN
 	1    11900 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push DOWN1
@@ -4942,7 +4918,7 @@ F 1 "1N4148" H 11100 4250 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10900 3975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10900 4150 50  0001 C CNN
 	1    10900 4150
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D163
@@ -5117,59 +5093,14 @@ Wire Wire Line
 Connection ~ 9250 3150
 Wire Wire Line
 	9250 3150 9750 3150
-Wire Wire Line
-	5600 1150 5600 1750
 Connection ~ 5600 1150
 Wire Wire Line
-	5600 1750 5600 1900
-Wire Wire Line
 	5600 1900 5800 1900
-Wire Wire Line
-	5800 1900 5800 2350
-Connection ~ 5600 1750
-Wire Wire Line
-	5800 2350 5800 2500
 Wire Wire Line
 	5800 2500 5850 2500
 Wire Wire Line
 	5850 2500 5850 2950
-Connection ~ 5800 2350
-Wire Wire Line
-	6100 1150 6100 1750
 Connection ~ 6100 1150
-Wire Wire Line
-	6600 1150 6600 1750
-Connection ~ 6600 1150
-Wire Wire Line
-	7100 1150 7100 1750
-Connection ~ 7100 1150
-Wire Wire Line
-	7600 1150 7600 1750
-Connection ~ 7600 1150
-Wire Wire Line
-	8100 1150 8100 1750
-Connection ~ 8100 1150
-Wire Wire Line
-	8600 1150 8600 1750
-Connection ~ 8600 1150
-Wire Wire Line
-	9100 1150 9100 1750
-Connection ~ 9100 1150
-Wire Wire Line
-	9600 1150 9600 1750
-Connection ~ 9600 1150
-Wire Wire Line
-	10100 1150 10100 1750
-Connection ~ 10100 1150
-Wire Wire Line
-	10600 1150 10600 1750
-Connection ~ 10600 1150
-Wire Wire Line
-	11100 1150 11100 1750
-Connection ~ 11100 1150
-Wire Wire Line
-	11600 1150 11600 1750
-Connection ~ 11600 1150
 Wire Wire Line
 	13050 1150 13100 1150
 Wire Wire Line
@@ -5180,310 +5111,119 @@ Wire Wire Line
 	6000 3200 6550 3200
 Wire Wire Line
 	6550 3200 6550 3550
-Connection ~ 5850 2950
-Wire Wire Line
-	6100 1750 6100 1900
 Wire Wire Line
 	6100 1900 6350 1900
 Wire Wire Line
-	6350 1900 6350 2350
-Connection ~ 6100 1750
-Wire Wire Line
-	6350 2350 6350 2500
-Wire Wire Line
 	6350 2500 6450 2500
 Wire Wire Line
-	6450 2500 6450 2950
-Connection ~ 6350 2350
-Wire Wire Line
-	6450 2950 6450 3100
-Wire Wire Line
-	6450 3100 7050 3100
-Wire Wire Line
 	7050 3100 7050 3550
-Connection ~ 6450 2950
-Wire Wire Line
-	6600 1750 6600 1900
 Wire Wire Line
 	6600 1900 6850 1900
 Wire Wire Line
-	6850 1900 6850 2350
-Connection ~ 6600 1750
-Wire Wire Line
-	6850 2350 6850 2500
-Wire Wire Line
 	6850 2500 6950 2500
-Wire Wire Line
-	6950 2500 6950 2950
-Connection ~ 6850 2350
-Wire Wire Line
-	6950 2950 6950 3050
 Wire Wire Line
 	7550 3050 7550 3550
 Wire Wire Line
 	6950 3050 7550 3050
-Connection ~ 6950 2950
-Wire Wire Line
-	7100 1750 7100 1900
 Wire Wire Line
 	7100 1900 7350 1900
 Wire Wire Line
-	7350 1900 7350 2350
-Connection ~ 7100 1750
-Wire Wire Line
-	7350 2350 7350 2500
-Wire Wire Line
 	7350 2500 7450 2500
-Wire Wire Line
-	7450 2500 7450 2950
-Connection ~ 7350 2350
-Wire Wire Line
-	7450 2950 7450 3000
 Wire Wire Line
 	7450 3000 7650 3000
 Wire Wire Line
 	7650 3000 7650 3100
 Wire Wire Line
-	7650 3100 8050 3100
-Wire Wire Line
 	8050 3100 8050 3550
-Connection ~ 7450 2950
-Wire Wire Line
-	7600 1750 7600 1900
 Wire Wire Line
 	7600 1900 7850 1900
 Wire Wire Line
-	7850 1900 7850 2350
-Connection ~ 7600 1750
-Wire Wire Line
-	7850 2350 7850 2500
-Wire Wire Line
 	7850 2500 7950 2500
-Wire Wire Line
-	7950 2500 7950 2950
-Connection ~ 7850 2350
-Wire Wire Line
-	7950 2950 7950 3050
 Wire Wire Line
 	7950 3050 8100 3050
 Wire Wire Line
 	8100 3050 8100 3100
 Wire Wire Line
-	8100 3100 8550 3100
-Wire Wire Line
 	8550 3100 8550 3550
-Connection ~ 7950 2950
-Wire Wire Line
-	8100 1750 8100 1900
 Wire Wire Line
 	8100 1900 8350 1900
-Wire Wire Line
-	8350 1900 8350 2350
-Connection ~ 8100 1750
-Wire Wire Line
-	8350 2350 8350 2500
 Wire Wire Line
 	8350 2500 8450 2500
 Wire Wire Line
 	8450 2500 8450 2950
-Connection ~ 8350 2350
 Wire Wire Line
 	8450 2950 8600 2950
 Wire Wire Line
 	8600 2950 8600 4150
-Connection ~ 8450 2950
-Wire Wire Line
-	8600 1750 8600 1900
 Wire Wire Line
 	8600 1900 8850 1900
 Wire Wire Line
-	8850 1900 8850 2350
-Connection ~ 8600 1750
-Wire Wire Line
-	8850 2350 8850 2500
-Wire Wire Line
 	8850 2500 8950 2500
-Wire Wire Line
-	8950 2500 8950 2950
-Connection ~ 8850 2350
-Wire Wire Line
-	8950 2950 8950 3100
 Wire Wire Line
 	8950 3100 9050 3100
 Wire Wire Line
 	9050 3100 9050 3550
-Connection ~ 8950 2950
-Wire Wire Line
-	9100 1750 9100 1900
 Wire Wire Line
 	9100 1900 9350 1900
 Wire Wire Line
-	9350 1900 9350 2350
-Connection ~ 9100 1750
-Wire Wire Line
-	9350 2350 9350 2500
-Wire Wire Line
 	9350 2500 9450 2500
-Wire Wire Line
-	9450 2500 9450 2950
-Connection ~ 9350 2350
-Wire Wire Line
-	9450 2950 9450 3100
 Wire Wire Line
 	9450 3100 9550 3100
 Wire Wire Line
 	9550 3100 9550 3550
-Connection ~ 9450 2950
-Wire Wire Line
-	9600 1750 9600 1900
 Wire Wire Line
 	9600 1900 9850 1900
 Wire Wire Line
-	9850 1900 9850 2350
-Connection ~ 9600 1750
-Wire Wire Line
-	9850 2350 9850 2500
-Wire Wire Line
 	9850 2500 9950 2500
-Wire Wire Line
-	9950 2500 9950 2950
-Connection ~ 9850 2350
-Wire Wire Line
-	9950 2950 9950 3100
 Wire Wire Line
 	9950 3100 10050 3100
 Wire Wire Line
 	10050 3100 10050 3550
-Connection ~ 9950 2950
-Wire Wire Line
-	10100 1750 10100 1900
 Wire Wire Line
 	10100 1900 10350 1900
 Wire Wire Line
-	10350 1900 10350 2350
-Connection ~ 10100 1750
-Wire Wire Line
-	10350 2350 10350 2500
-Wire Wire Line
 	10350 2500 10450 2500
-Wire Wire Line
-	10450 2500 10450 2950
-Connection ~ 10350 2350
-Wire Wire Line
-	10450 2950 10450 3100
 Wire Wire Line
 	10450 3100 10550 3100
 Wire Wire Line
 	10550 3100 10550 3550
-Connection ~ 10450 2950
-Wire Wire Line
-	10600 1750 10600 1900
 Wire Wire Line
 	10600 1900 10850 1900
 Wire Wire Line
-	10850 1900 10850 2350
-Connection ~ 10600 1750
-Wire Wire Line
-	10850 2350 10850 2500
-Wire Wire Line
 	10850 2500 10950 2500
-Wire Wire Line
-	10950 2500 10950 2950
-Connection ~ 10850 2350
-Wire Wire Line
-	10950 2950 10950 3100
 Wire Wire Line
 	10950 3100 11050 3100
 Wire Wire Line
 	11050 3100 11050 3550
-Connection ~ 10950 2950
-Wire Wire Line
-	11100 1750 11100 1900
 Wire Wire Line
 	11100 1900 11350 1900
 Wire Wire Line
-	11350 1900 11350 2350
-Connection ~ 11100 1750
-Wire Wire Line
-	11350 2350 11350 2500
-Wire Wire Line
 	11350 2500 11450 2500
-Wire Wire Line
-	11450 2500 11450 2950
-Connection ~ 11350 2350
-Wire Wire Line
-	11450 2950 11450 3100
-Wire Wire Line
-	11450 3100 11100 3100
 Wire Wire Line
 	11100 3100 11100 4150
 Wire Wire Line
 	11100 4150 11050 4150
-Connection ~ 11450 2950
-Wire Wire Line
-	11600 1750 11600 1900
 Wire Wire Line
 	11600 1900 11850 1900
 Wire Wire Line
-	11850 1900 11850 2350
-Connection ~ 11600 1750
-Wire Wire Line
-	11850 2350 11850 2500
-Wire Wire Line
 	11850 2500 11950 2500
 Wire Wire Line
-	11950 2500 11950 2950
-Connection ~ 11850 2350
-Wire Wire Line
-	11950 3100 11550 3100
-Wire Wire Line
 	11550 3100 11550 3550
-Connection ~ 11950 2950
 Wire Wire Line
 	12100 1300 12350 1300
 Wire Wire Line
-	12350 1300 12350 1750
-Wire Wire Line
 	12100 650  12100 1300
-Wire Wire Line
-	12350 1750 12350 1900
 Wire Wire Line
 	12350 1900 12550 1900
 Wire Wire Line
-	12550 1900 12550 2650
-Connection ~ 12350 1750
-Wire Wire Line
-	12550 2650 12550 3100
-Wire Wire Line
 	12550 3100 12050 3100
 Wire Wire Line
-	12050 3100 12050 3550
-Connection ~ 12550 2650
-Wire Wire Line
-	12050 3550 12050 3700
-Wire Wire Line
-	12050 3700 11550 3700
-Wire Wire Line
 	11550 3700 11550 4150
-Connection ~ 12050 3550
 Wire Wire Line
 	12050 3700 12050 4150
 Connection ~ 12050 3700
 Wire Wire Line
-	13050 1900 13050 2350
-Connection ~ 13050 2350
-Wire Wire Line
-	13050 2350 13050 2950
-Connection ~ 13050 2950
-Wire Wire Line
-	13050 2950 13050 3550
-Connection ~ 13050 3550
-Wire Wire Line
-	13050 3550 13050 3700
-Wire Wire Line
 	12550 4150 12550 3700
-Wire Wire Line
-	12550 3700 13050 3700
 Connection ~ 13050 3700
 Wire Wire Line
 	13050 3700 13050 4150
@@ -5506,8 +5246,6 @@ Wire Wire Line
 Connection ~ 10750 3750
 Wire Wire Line
 	11150 3750 11150 4300
-Wire Wire Line
-	11150 4300 12200 4300
 Wire Wire Line
 	12200 4300 12200 3750
 Wire Wire Line
@@ -5541,8 +5279,6 @@ Wire Wire Line
 	12300 3750 12750 3750
 Connection ~ 11750 3750
 Wire Wire Line
-	11950 2950 11950 3100
-Wire Wire Line
 	12000 3150 12750 3150
 Connection ~ 12000 3150
 Wire Wire Line
@@ -5556,8 +5292,6 @@ Connection ~ 12700 750
 Wire Wire Line
 	12700 750  12750 750 
 Wire Wire Line
-	12650 1900 13050 1900
-Wire Wire Line
 	12750 2550 12600 2550
 Wire Wire Line
 	12600 2550 12600 1350
@@ -5568,7 +5302,6 @@ Wire Wire Line
 	12650 650  12650 1900
 Wire Wire Line
 	13050 1150 13050 1750
-Connection ~ 13050 1150
 Wire Wire Line
 	12000 1950 12250 1950
 Wire Wire Line
@@ -5758,4 +5491,335 @@ Connection ~ 2250 2550
 Connection ~ 2150 3550
 Wire Wire Line
 	2250 2550 2250 4700
+Text Notes 1400 1250 0    50   ~ 0
+Begin all hiZ\nwrite 1 row low (PA0)\nset all col pins  in pullup and read (PB0 - PB15)\nset row hiZ again\nset col hiZ again\nnext row\n\npressed key should be low
+Wire Wire Line
+	6600 650  6600 1150
+Connection ~ 6600 1150
+Wire Wire Line
+	7100 650  7100 1150
+Connection ~ 7100 1150
+Wire Wire Line
+	7600 650  7600 1150
+Connection ~ 7600 1150
+Wire Wire Line
+	8100 650  8100 1150
+Connection ~ 8100 1150
+Wire Wire Line
+	9100 650  9100 1150
+Connection ~ 9100 1150
+Wire Wire Line
+	10100 650  10100 1150
+Connection ~ 10100 1150
+Wire Wire Line
+	10600 650  10600 1150
+Connection ~ 10600 1150
+Wire Wire Line
+	11100 650  11100 1150
+Connection ~ 11100 1150
+Wire Wire Line
+	11600 650  11600 1150
+Connection ~ 11600 1150
+Connection ~ 13050 1150
+Wire Wire Line
+	12650 1900 13050 1900
+Wire Wire Line
+	12350 1300 12350 1750
+Connection ~ 12350 1750
+Wire Wire Line
+	12350 1750 12350 1900
+Wire Wire Line
+	11600 1150 11600 1750
+Connection ~ 11600 1750
+Wire Wire Line
+	11600 1750 11600 1900
+Wire Wire Line
+	11100 1150 11100 1750
+Connection ~ 11100 1750
+Wire Wire Line
+	11100 1750 11100 1900
+Wire Wire Line
+	10600 1150 10600 1750
+Connection ~ 10600 1750
+Wire Wire Line
+	10600 1750 10600 1900
+Wire Wire Line
+	10100 1150 10100 1750
+Connection ~ 10100 1750
+Wire Wire Line
+	10100 1750 10100 1900
+Connection ~ 9600 1750
+Wire Wire Line
+	9600 1750 9600 1900
+Wire Wire Line
+	9100 1150 9100 1750
+Connection ~ 9100 1750
+Wire Wire Line
+	9100 1750 9100 1900
+Connection ~ 8600 1750
+Wire Wire Line
+	8600 1750 8600 1900
+Wire Wire Line
+	8100 1150 8100 1750
+Connection ~ 8100 1750
+Wire Wire Line
+	8100 1750 8100 1900
+Wire Wire Line
+	7600 1150 7600 1750
+Connection ~ 7600 1750
+Wire Wire Line
+	7600 1750 7600 1900
+Wire Wire Line
+	7100 1150 7100 1750
+Connection ~ 7100 1750
+Wire Wire Line
+	7100 1750 7100 1900
+Wire Wire Line
+	6600 1150 6600 1750
+Connection ~ 6600 1750
+Wire Wire Line
+	6600 1750 6600 1900
+Wire Wire Line
+	6100 1150 6100 1750
+Connection ~ 6100 1750
+Wire Wire Line
+	6100 1750 6100 1900
+Wire Wire Line
+	5600 1150 5600 1750
+Connection ~ 5600 1750
+Wire Wire Line
+	5600 1750 5600 1900
+Wire Wire Line
+	5800 1900 5800 2350
+Connection ~ 5800 2350
+Wire Wire Line
+	5800 2350 5800 2500
+Wire Wire Line
+	6350 1900 6350 2350
+Connection ~ 6350 2350
+Wire Wire Line
+	6350 2350 6350 2500
+Wire Wire Line
+	6850 1900 6850 2350
+Connection ~ 6850 2350
+Wire Wire Line
+	6850 2350 6850 2500
+Wire Wire Line
+	7350 1900 7350 2350
+Connection ~ 7350 2350
+Wire Wire Line
+	7350 2350 7350 2500
+Wire Wire Line
+	7850 1900 7850 2350
+Connection ~ 7850 2350
+Wire Wire Line
+	7850 2350 7850 2500
+Wire Wire Line
+	8350 1900 8350 2350
+Connection ~ 8350 2350
+Wire Wire Line
+	8350 2350 8350 2500
+Wire Wire Line
+	8850 1900 8850 2350
+Connection ~ 8850 2350
+Wire Wire Line
+	8850 2350 8850 2500
+Wire Wire Line
+	9350 1900 9350 2350
+Connection ~ 9350 2350
+Wire Wire Line
+	9350 2350 9350 2500
+Wire Wire Line
+	9850 1900 9850 2350
+Connection ~ 9850 2350
+Wire Wire Line
+	9850 2350 9850 2500
+Wire Wire Line
+	10350 1900 10350 2350
+Connection ~ 10350 2350
+Wire Wire Line
+	10350 2350 10350 2500
+Wire Wire Line
+	10850 1900 10850 2350
+Connection ~ 10850 2350
+Wire Wire Line
+	10850 2350 10850 2500
+Wire Wire Line
+	11350 1900 11350 2350
+Connection ~ 11350 2350
+Wire Wire Line
+	11350 2350 11350 2500
+Wire Wire Line
+	11850 1900 11850 2350
+Connection ~ 11850 2350
+Wire Wire Line
+	11850 2350 11850 2500
+Wire Wire Line
+	13050 1900 13050 2350
+Connection ~ 13050 2350
+Wire Wire Line
+	12550 1900 12550 2650
+Connection ~ 12550 2650
+Wire Wire Line
+	12550 2650 12550 3100
+Wire Wire Line
+	13050 2350 13050 2950
+Connection ~ 13050 2950
+Wire Wire Line
+	11950 2500 11950 2950
+Connection ~ 11950 2950
+Wire Wire Line
+	11950 2950 11950 3100
+Wire Wire Line
+	11550 3100 11950 3100
+Wire Wire Line
+	11450 2500 11450 2950
+Connection ~ 11450 2950
+Wire Wire Line
+	11450 2950 11450 3100
+Wire Wire Line
+	11100 3100 11450 3100
+Wire Wire Line
+	10950 2500 10950 2950
+Connection ~ 10950 2950
+Wire Wire Line
+	10950 2950 10950 3100
+Wire Wire Line
+	10450 2500 10450 2950
+Connection ~ 10450 2950
+Wire Wire Line
+	10450 2950 10450 3100
+Wire Wire Line
+	9950 2500 9950 2950
+Connection ~ 9950 2950
+Wire Wire Line
+	9950 2950 9950 3100
+Wire Wire Line
+	9450 2500 9450 2950
+Connection ~ 9450 2950
+Wire Wire Line
+	9450 2950 9450 3100
+Wire Wire Line
+	8950 2500 8950 2950
+Connection ~ 8950 2950
+Wire Wire Line
+	8950 2950 8950 3100
+Connection ~ 8450 2950
+Wire Wire Line
+	8100 3100 8550 3100
+Wire Wire Line
+	7950 2500 7950 2950
+Connection ~ 7950 2950
+Wire Wire Line
+	7950 2950 7950 3050
+Wire Wire Line
+	7650 3100 8050 3100
+Wire Wire Line
+	7450 2500 7450 2950
+Connection ~ 7450 2950
+Wire Wire Line
+	7450 2950 7450 3000
+Wire Wire Line
+	6950 2500 6950 2950
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 6950 3050
+Wire Wire Line
+	6450 3100 7050 3100
+Wire Wire Line
+	6450 2500 6450 2950
+Connection ~ 6450 2950
+Wire Wire Line
+	6450 2950 6450 3100
+Connection ~ 5850 2950
+Wire Wire Line
+	12050 3100 12050 3550
+Connection ~ 12050 3550
+Wire Wire Line
+	12050 3550 12050 3700
+Wire Wire Line
+	11550 3700 12050 3700
+Wire Wire Line
+	13050 2950 13050 3550
+Connection ~ 13050 3550
+Wire Wire Line
+	13050 3550 13050 3700
+Wire Wire Line
+	12550 3700 13050 3700
+Wire Wire Line
+	11150 4300 12200 4300
+Wire Wire Line
+	9600 650  9600 1150
+Connection ~ 9600 1150
+Wire Wire Line
+	9600 1150 9600 1750
+Wire Wire Line
+	8600 650  8600 1150
+Connection ~ 8600 1150
+Wire Wire Line
+	8600 1150 8600 1750
+$Comp
+L Device:C_Small C22
+U 1 1 62AF4F93
+P 1000 3350
+F 0 "C22" V 1100 3350 50  0000 C CNN
+F 1 "10u" V 900 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1000 3350 50  0001 C CNN
+F 3 "~" H 1000 3350 50  0001 C CNN
+F 4 "https://de.farnell.com/samsung-electro-mechanics/cl10a106mq8nnnc/kondensator-10uf-6-3v-mlcc-0603/dp/3013391" V 1000 3350 50  0001 C CNN "URL"
+	1    1000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 62B2ED76
+P 1000 3050
+F 0 "C21" V 1100 3050 50  0000 C CNN
+F 1 "10u" V 900 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1000 3050 50  0001 C CNN
+F 3 "~" H 1000 3050 50  0001 C CNN
+F 4 "https://de.farnell.com/samsung-electro-mechanics/cl10a106mq8nnnc/kondensator-10uf-6-3v-mlcc-0603/dp/3013391" V 1000 3050 50  0001 C CNN "URL"
+	1    1000 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 62B6A3B7
+P 1000 3900
+F 0 "C24" V 1100 3900 50  0000 C CNN
+F 1 "10u" V 900 3900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1000 3900 50  0001 C CNN
+F 3 "~" H 1000 3900 50  0001 C CNN
+F 4 "https://de.farnell.com/samsung-electro-mechanics/cl10a106mq8nnnc/kondensator-10uf-6-3v-mlcc-0603/dp/3013391" V 1000 3900 50  0001 C CNN "URL"
+	1    1000 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 62B6A3BE
+P 1000 3600
+F 0 "C23" V 1100 3600 50  0000 C CNN
+F 1 "10u" V 900 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1000 3600 50  0001 C CNN
+F 3 "~" H 1000 3600 50  0001 C CNN
+F 4 "https://de.farnell.com/samsung-electro-mechanics/cl10a106mq8nnnc/kondensator-10uf-6-3v-mlcc-0603/dp/3013391" V 1000 3600 50  0001 C CNN "URL"
+	1    1000 3600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 900  3050 0    50   Input ~ 0
+GND
+Text GLabel 900  3350 0    50   Input ~ 0
+GND
+Text GLabel 900  3600 0    50   Input ~ 0
+GND
+Text GLabel 900  3900 0    50   Input ~ 0
+GND
+Text GLabel 1100 3050 2    50   Input ~ 0
+3V3
+Text GLabel 1100 3350 2    50   Input ~ 0
+3V3
+Text GLabel 1100 3600 2    50   Input ~ 0
+3V3
+Text GLabel 1100 3900 2    50   Input ~ 0
+3V3
 $EndSCHEMATC
