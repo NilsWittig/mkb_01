@@ -20,7 +20,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_device.h"
-#include "usbd_hid.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -475,14 +474,14 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : CTL_Pin SUPER_Pin */
   GPIO_InitStruct.Pin = CTL_Pin|SUPER_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pins : R_0_Pin R_1_Pin R_2_Pin R_3_Pin
                            R_4_Pin BACK_LIGHT_Pin */
   GPIO_InitStruct.Pin = R_0_Pin|R_1_Pin|R_2_Pin|R_3_Pin
                           |R_4_Pin|BACK_LIGHT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -502,7 +501,7 @@ static void MX_GPIO_Init(void)
                           |C_15_Pin|C_3_Pin|C_4_Pin|C_5_Pin
                           |C_6_Pin|C_7_Pin|C_8_Pin|C_9_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
