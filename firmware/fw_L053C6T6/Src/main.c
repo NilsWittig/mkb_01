@@ -20,9 +20,21 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_device.h"
+#include "usbd_hid.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+/*
+ * in Middlewares/ST/STM32_USB_Device_Library/class/HID/Inc/usbd_hid.h
+ * changed HID_MOUSE_REPORT_DESC_SIZE from 74U to 63U
+ *
+ * in Middlewares/ST/STM32_USB_Device_Library/class/HID/Inc/usbd_hid.c
+ * changed nInterfaceProtocol in USBD_HID_CfgFSDesc from 2 to 1
+ * changed data in HID_MOUSE_ReportDesc to be a keybord
+ *
+ */
+
 
 /* USER CODE END Includes */
 
@@ -33,6 +45,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define PRESS_REPORT_SIZE 8
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -49,6 +62,22 @@ TIM_HandleTypeDef htim22;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
+extern USBD_HandleTypeDef hUsbDeviceFS;
+
+
+typedef struct
+{
+	uint8_t MODIFIER;
+	uint8_t RESERVED;
+	uint8_t KEYCODE1;
+	uint8_t KEYCODE2;
+	uint8_t KEYCODE3;
+	uint8_t KEYCODE4;
+	uint8_t KEYCODE5;
+	uint8_t KEYCODE6;
+}subKeyBoard;
+
+subKeyBoard keyBoardHIDsub = {0,0,0,0,0,0,0,0};
 
 /* USER CODE END PV */
 
@@ -108,9 +137,21 @@ int main(void)
   char msg[100] = "L053C6T6 fw\n";
   uint32_t cnt = 0;
 
+  uint8_t press_report[PRESS_REPORT_SIZE] = {0};
+  press_report[2] = 7; // 'd'
+
   //HAL_Delay(2000);
 
   HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+
+
+  HAL_GPIO_WritePin(CAPS_LIGHT_GPIO_Port, CAPS_LIGHT_Pin, GPIO_PIN_SET);
+
+  HAL_GPIO_WritePin(GPIOA, BACK_LIGHT_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, R_0_Pin|R_1_Pin|R_2_Pin|R_3_Pin|R_4_Pin, GPIO_PIN_RESET);
+  uint8_t caps_state =  HAL_GPIO_ReadPin(GPIOB, C_0_Pin);
+  uint8_t one_state =  HAL_GPIO_ReadPin(GPIOB, C_1_Pin);
+  uint8_t ctl_state =  HAL_GPIO_ReadPin(GPIOC, CTL_Pin);
 
   /* USER CODE END 2 */
 
@@ -120,8 +161,24 @@ int main(void)
   {
 
 	  HAL_Delay(1000);
-	  sprintf(msg, "Alive %u\n", cnt++);
+	  caps_state =  HAL_GPIO_ReadPin(GPIOB, C_0_Pin);
+	  one_state =  HAL_GPIO_ReadPin(GPIOB, C_1_Pin);
+	  ctl_state =  HAL_GPIO_ReadPin(GPIOC, CTL_Pin);
+	  sprintf(msg, "Alive %u, Caps: %u, C_1: %u, CTL: %u\n", cnt++, caps_state, one_state, ctl_state);
 	  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+
+	  HAL_GPIO_TogglePin(CAPS_LIGHT_GPIO_Port, CAPS_LIGHT_Pin);
+
+
+	  if(!ctl_state){
+
+		  keyBoardHIDsub.KEYCODE2=0x06;  // Press C key
+		  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+		  HAL_Delay(50); 		       // Press all key for 50 milliseconds
+		  keyBoardHIDsub.KEYCODE2=0x00;  // Release C key
+		  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+
+	  }
 
     /* USER CODE END WHILE */
 
@@ -418,14 +475,14 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : CTL_Pin SUPER_Pin */
   GPIO_InitStruct.Pin = CTL_Pin|SUPER_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pins : R_0_Pin R_1_Pin R_2_Pin R_3_Pin
                            R_4_Pin BACK_LIGHT_Pin */
   GPIO_InitStruct.Pin = R_0_Pin|R_1_Pin|R_2_Pin|R_3_Pin
                           |R_4_Pin|BACK_LIGHT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -445,7 +502,7 @@ static void MX_GPIO_Init(void)
                           |C_15_Pin|C_3_Pin|C_4_Pin|C_5_Pin
                           |C_6_Pin|C_7_Pin|C_8_Pin|C_9_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
@@ -465,6 +522,8 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
+	  HAL_GPIO_TogglePin(CAPS_LIGHT_GPIO_Port, CAPS_LIGHT_Pin);
+	  HAL_Delay(50);
   }
   /* USER CODE END Error_Handler_Debug */
 }
