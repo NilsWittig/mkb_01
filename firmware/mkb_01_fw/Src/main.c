@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usbd_cdc.h"
+#include "usbd_cdc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -61,6 +62,56 @@ static void MX_USART1_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+//extern USBD_HandleTypeDef hUsbDeviceFS;
+
+#define CLICK_REPORT_SIZE 5
+uint8_t click_report[CLICK_REPORT_SIZE] = {0};
+
+extern UART_HandleTypeDef * get_uart_handle() {
+	return &huart1;
+}
+
+uint8_t  USBD_CDC_TransmitPacket__(USBD_HandleTypeDef *pdev, uint8_t * buf, uint32_t len)
+{
+
+	/* Update the packet total length */
+	      pdev->ep_in[CDC_IN_EP & 0xFU].total_length = len;
+
+	  /* Transmit next packet */
+	return USBD_LL_Transmit(pdev, CDC_IN_EP, buf, (uint16_t)len);
+
+
+	/*
+  USBD_CDC_HandleTypeDef   *hcdc = (USBD_CDC_HandleTypeDef *) pdev->pClassData;
+
+  if (pdev->pClassData != NULL)
+  {
+    if (hcdc->TxState == 0U)
+    {
+
+      hcdc->TxState = 1U;
+
+
+      pdev->ep_in[CDC_IN_EP & 0xFU].total_length = len;
+
+
+      USBD_LL_Transmit(pdev, CDC_IN_EP, buf,
+                       (uint16_t)len);
+
+      return USBD_OK;
+    }
+    else
+    {
+      return USBD_BUSY;
+    }
+  }
+  else
+  {
+    return USBD_FAIL;
+  }
+  */
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -96,13 +147,20 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
+
+  //CDC_Init_FS();
+  HAL_Delay(1000);
+  USBD_HandleTypeDef * hUsbDeviceFS = get_usbd_handle();
+
   char msg[200] = "MKB_01 Start\n";
 
   uint32_t counter = 0;
 
-  HAL_Delay(2000);
+  //HAL_Delay(2000);
 
   HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+
+  uint16_t backoff = 0;
 
   /* USER CODE END 2 */
 
@@ -113,13 +171,59 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+/*
+
+	  if(HAL_GPIO_ReadPin(CTL_GPIO_Port, CTL_Pin) == GPIO_PIN_RESET){
+	    //HAL_GPIO_WritePin(USER_LED_1_GPIO_Port, USER_LED_1_Pin, GPIO_PIN_SET);
+
+	    click_report[0] = 1; // send button press
+	    USBD_HID_SendReport(&hUsbDeviceFS, click_report, CLICK_REPORT_SIZE);
+	    HAL_Delay(50);
+
+	    sprintf(msg, "Klick %d\n", counter++);
+
+	    HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+
+	    click_report[0] = 0; // send button release
+	    USBD_HID_SendReport(&hUsbDeviceFS, click_report, CLICK_REPORT_SIZE);
+
+	    HAL_Delay(200);
+
+	    //HAL_GPIO_WritePin(USER_LED_1_GPIO_Port, USER_LED_1_Pin, GPIO_PIN_RESET);
+	  }
+*/
+
+	  if(backoff++ == 1000) {
+		  sprintf(msg, "Alive %d\n", counter++);
+		  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+
+		  /*
+		  uint8_t * msg_ = (uint8_t *) msg;
+		  USBD_CDC_SetTxBuffer(hUsbDeviceFS, msg_, strlen(msg));
+
+		  if( USBD_CDC_TransmitPacket(hUsbDeviceFS) == USBD_FAIL) {
+			  sprintf(msg, "USB fail\n");
+			  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+		  }
+
+		  if(USBD_CDC_TransmitPacket__(hUsbDeviceFS, (uint8_t *) msg, strlen(msg)) != 0) {
+			  sprintf(msg, "USB fail\n");
+			  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+		  }
+		  */
+		  if(CDC_Transmit_FS( (uint8_t *) msg, strlen(msg)) != 0) {
+			  sprintf(msg, "USB fail\n");
+			  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+		  }
 
 
-	  HAL_Delay(1000);
 
-	  sprintf(msg, "Alive %d\n", counter++);
+		  backoff = 0;
+	  }
 
-	  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+	  HAL_Delay(1);
+
+
 
   }
   /* USER CODE END 3 */
@@ -306,6 +410,10 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(CAPS_LIGHT_GPIO_Port, CAPS_LIGHT_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, R_0_Pin|R_1_Pin|R_2_Pin|R_3_Pin
+                          |R_4_Pin, GPIO_PIN_RESET);
+
   /*Configure GPIO pin : CAPS_LIGHT_Pin */
   GPIO_InitStruct.Pin = CAPS_LIGHT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -316,17 +424,22 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : CTL_Pin SUPER_Pin */
   GPIO_InitStruct.Pin = CTL_Pin|SUPER_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pins : R_0_Pin R_1_Pin R_2_Pin R_3_Pin
-                           R_4_Pin ALT_GR_Pin LSHIFT_Pin SHIFT_Pin
-                           ALT_Pin */
+                           R_4_Pin */
   GPIO_InitStruct.Pin = R_0_Pin|R_1_Pin|R_2_Pin|R_3_Pin
-                          |R_4_Pin|ALT_GR_Pin|LSHIFT_Pin|SHIFT_Pin
-                          |ALT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+                          |R_4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : ALT_GR_Pin LSHIFT_Pin SHIFT_Pin ALT_Pin */
+  GPIO_InitStruct.Pin = ALT_GR_Pin|LSHIFT_Pin|SHIFT_Pin|ALT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : C_0_Pin C_1_Pin C_2_Pin C_10_Pin
@@ -356,8 +469,12 @@ void Error_Handler(void)
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
+  char msg[200] = "ERROR\n";
   while (1)
   {
+	  HAL_UART_Transmit(&huart1, (uint8_t *) msg, strlen(msg), 1000);
+	  HAL_Delay(500);
+
   }
   /* USER CODE END Error_Handler_Debug */
 }

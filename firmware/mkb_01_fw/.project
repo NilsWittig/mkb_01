@@ -39,8 +39,8 @@
 			<type>1</type>
 			<location>PARENT-2-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c</location>
 		</link><link>
-			<name>USB_Device_Library/usbd_hid.c</name>
+			<name>USB_Device_Library/usbd_cdc.c</name>
 			<type>1</type>
-			<location>PARENT-2-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c</location>
+			<location>PARENT-2-PROJECT_LOC/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c</location>
 		</link></linkedResources>
 </projectDescription>
